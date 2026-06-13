@@ -19,4 +19,3 @@ button.addEventListener("click", () => {
   widget.style.backgroundColor = randomColor; 
   colorSpan.textContent = randomColor;        
 });
-
