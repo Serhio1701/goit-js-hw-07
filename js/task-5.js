@@ -10,12 +10,12 @@ const pgph = document.querySelectorAll("p");
 pgph[1].classList.add("paragraph");
 const frameForm = document.createElement("div");
 frameForm.classList.add("frame-form");
-const widget = document.querySelector(".widget")
+const widget = document.querySelector(".widget");
 widget.append(frameForm);
 frameForm.append(pgph[1], button);
 
 button.addEventListener("click", () => {
   const randomColor = getRandomHexColor();
-document.body.style.backgroundColor = color;
+  document.body.style.backgroundColor = randomColor; 
   colorSpan.textContent = randomColor;        
 });
