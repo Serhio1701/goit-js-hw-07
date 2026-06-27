@@ -13,4 +13,4 @@ const container = document.createElement("div");
 container.classList.add("frame");
 input.before(container);
 container.append(input, title);
-const placeholder = document.querySelector
+const placeholder = document.querySelector();

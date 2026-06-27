@@ -16,6 +16,6 @@ frameForm.append(pgph[1], button);
 
 button.addEventListener("click", () => {
   const randomColor = getRandomHexColor();
-  widget.style.backgroundColor = randomColor; 
+document.body.style.backgroundColor = color;
   colorSpan.textContent = randomColor;        
 });
